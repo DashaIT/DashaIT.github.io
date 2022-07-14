@@ -1,0 +1,38 @@
+header{
+    position: relative;
+	height: 80px;
+    background-color: #111111;
+    padding: 23px 80px 23px 64px;
+    box-sizing: border-box;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 100px;
+        margin: 0;
+        list-style: none;
+        &_item{
+            padding-right: 40px;
+            text-align: center;            
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+    }
+    // .hamburger{
+    //     display: none; 
+    // }
+    .trash {
+        padding-left: 36px;
+    }
+}
